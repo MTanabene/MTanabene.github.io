@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box; 
+}
+
+html, body,div{height: 100%;}
+
+.navbar 
+      {font-family: ;
+      font-size: 22.5px;
+      letter-spacing:5px;
+      background-color:#fff;
+      margin:0px 40px 20px 40px;
+      font-family: 'EB Garamond', serif;
+       
+}
+
+  .navbar-nav  li a:hover
+    {
+    opacity:0.5;
+    }
+
+.nav > .active > a {     
+  background-color:#FF847C!important;
+  color:#fff!important;  
+  }
+.nav a
+{
+  color:#FF847C!important;
+  padding-bottom:30px!important;
+  
+  padding-right:9px!important;
+}
+
+.home{
+  margin:72px 40px 20px 40px; 
+  height: 85%;
+}
+.myname{
+  color:#FF847C!important;
+  font-size:30px;
+  
+}
+body { 
+  color: #000;
+  font-family: sans-serif;
+  font-size: 1.25rem;
+  line-height: 150%;
+  
+}
+
+
+h1 {
+  font-size: 150px;
+  position: relative;
+  text-shadow: 0 5px 5px #000;
+}
+
+/* Pattern styles */
+.split {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  padding: 1rem;
+  font-family: 'Pacifico', cursive;
+  
+  
+}
+
+.left-half {
+  background: #FF847C;
+  color:#efefef;
+}
+
+.textLeft{
+  position: relative;
+  top: 50%;
+  left: 87%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.right-half {
+  background: #efefef;
+  color:#FF847C;
+}
+.textright
+{
+  position: relative;
+  top: 50%;
+  left: 20%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+   }
+.textright::after {
+  content: "";
+  width: 40px;
+  height: 40px;
+  display:inline-block;
+  background-color: #FF847C;
+  box-shadow: 0 5px 5px #000;
+  animation: square-to-circle 2s 2s infinite cubic-bezier(1,.015,.295,1.225) alternate; 
+}
+
+@keyframes square-to-circle {
+  
+  0%  {
+    border-radius:0 0 0 0;
+    transform:rotate(0deg);
+  }
+  25%  {
+    border-radius:50% 0 0 0;
+    transform:rotate(45deg);
+  }
+  50%  {
+    border-radius:50% 50% 0 0;
+    transform:rotate(90deg);
+  }
+  75%  { 
+    border-radius:50% 50% 50% 0;
+    transform:rotate(135deg);
+  }
+  100% {  
+    border-radius:50%;
+    transform:rotate(180deg);
+  }
+  
+}
+.section{
+  font-size:50px;
+    margin :100px;
+    color:#FF847C;
+}
+.bio{
+  margin-right:300px;
+  margin-left:300px;
+  font-size:20px;
+  
+}
+.about{
+   margin:72px 40px 20px 40px; 
+}
