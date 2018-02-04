@@ -1,4 +1,8 @@
-# My Personal Website :sparkling_heart:
+# My Personal Website 
+
+
+Click :point_right: [here](https://mtanabene.github.io/) to see my Personal Website
+
 
 ## Sections
 
@@ -11,6 +15,16 @@ My Portfolio contains 5 sections :
 
 ## Tech And choices
 
-- I coded my website from scratch and I keep it simple! (i am not a web designer :stuck_out_tongue_winking_eye:)
-- I choose the pink color as theme color.I :gift_heart: pink !
-- I used Simple HTML5 /CSS3 and JavaScript.
+ I coded my website from scratch and I keep it simple! (I am not a web designer :stuck_out_tongue_winking_eye:)
+
+### My color plalette :
+
+
+- ![#F06292](https://placehold.it/15/F06292/000000?text=+) `#F06292`
+- ![#f5f5f5](https://placehold.it/15/f5f5f5/000000?text=+) `#f5f5f5`
+- ![#494d55](https://placehold.it/15/494d55/000000?text=+) `#494d55`
+
+### technologies used :
+
+
+![alt text](http://www.mastergradeit.co.za/images/courses/programming/web_training.png)
