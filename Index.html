@@ -3,79 +3,246 @@
 <head>
   <title>My Portfolio</title>
 <meta charset="utf-8">
-
- <meta charset="utf-8">
-  
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- google font and font awesome -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-<link href="https://fonts.googleapis.com/css?family=EB+Garamond|Pacifico" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Supermercado+One|Open+Sans|Open+Sans+Condensed:300" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="style/portfolio-style.css">
+<link rel="stylesheet" type="text/css" href="./style/portfolio-style.css">
 </head>
 <body>
-    
 
-<nav class="navbar navbar-default navbar-fixed-top collapse navbar-collapse">
-   <div class="">
-    <div class="navbar-header">
-      <p class="navbar-brand myname"> Tanabene.Malek</p>
-    </div>
-    <div class="collapse navbar-collapse ">
-    <ul class="nav navbar-nav navbar-right">
-      <li class="active" style=""><a href="#H"><i class="fa fa-home"></i>Home</a></li>
+
+<!--Home Section-->
+
+<div class="h" >
+ <img src="https://images.pexels.com/photos/399161/pexels-photo-399161.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" height="80%" width="100%" class="img home"id="H" >
+	<h1 class="greeting"> Hello .</h1>
+	<h1 class="lets"> Let's combine smartness with business !</h1>
+</div>
+
+<!--Navbar -->
+
+<div class=" d-md-block">
+  <div id="" class=" text-center">
+     <div class="">
+      <ul class="topnav" id ="navbar">
+       <li class="active"><a href="#H"><i class="fa fa-home"></i>Home</a></li>
        <li><a href="#A"><i class="fa fa-question-circle-o"></i>About</a></li>
-        <li><a href="#S"><i class="fa  fa-code"></i>Skills</a></li>
+       <li><a href="#S"><i class="fa  fa-code"></i>Skills</a></li>
        <li><a  href="#P"><i class="fa fa-file-code-o"></i>Portfolio</a></li>
-      <li><a href="#C"><i class="fa  fa-envelope"></i>Contact</a></li>
-     
-    </ul>
-  
-  </div>
-  </div>
-  </nav>
-
-
-<div class="home" id="H">
-<div class="left-half split">
-  <h1 class='textLeft'>He</h1>
- </div><div class="right-half split"> 
-<h1 class="textright">llo </h1></div>
- </div>
+       <li><a href="#C"><i class="fa  fa-envelope"></i>Contact</a></li>
+     </ul>
+    </div>
+	</div>
 </div>
 
 <!--About section-->
-<div id="A" class=" about">
+
+<div id="A" class="section">
+	<div class="header-section">
+     <br><div class="header"><h1 class="section-title ">About me <i class="fa fa-question "></i></h1></div>
+	</div>
+	<div class="divider"><span></span></div>
+	<div class="about-section">
+	    <div class="intro ">
+		  <div class=""><img src="https://d1yn1kh78jj1rr.cloudfront.net/image/thumbnail/r_YXKwaAZj9npfagp/storyblocks-woman-using-laptop-work-place-scene-hand-draw-sketch-vector_Sh5x5wbJG_thumb.jpg" class="profile-image img img-circle" > </div>
+		  <div class="dialog">
+      <br>
+		  <p>My name is <span class='import'> Malek Tanabene </span>.<br>
+      I am an ambitious programmer who enjoys learning and practicing anything about the <span class='import'>
+      information technology </span>.<br>
+      I am an ongoing learner, <span class='import'>self-motivated </span>
+      person that finds happiness coding and making new programmes and scripts.<br>
+      Coding is like food for me , I can't live without it. One of my hobbies is practicing <span class='import'>
+      problem-solving</span> (CodinGame , HackerRank ) and participating in challenges and contests.<br>
+	     I am passionated by <span class='import'> AI </span>(Artificial Intelligence).
+       One of my <span class='import'> goals </span> is not only to become <span class='import'>
+      Python expert </span> but one of the <span class='import'> best </span> in this field ...</p>
+			</div>
+		  </div>
+	 </div>
+</div>
+
+
+
+<!--Skills section-->
+
+<div class="section skills-section" id="S">
+  <h1 class="text-center section-title" >< Personal Skills/> <br><br></h1>
+  <div class="row">
+    <div class="col-sm-6">
+      <p>Please keep in mind that everything I have learned was not only in classes .
+      <br>By reading many books, looking upYouTube videos, and browsing the internet,online courses (edx ..) I was able to gather
+      enough information to replicate them. <br> Other than the softwares
+      and programing languages on the right in addition to skills bellow,I also understand and work with APIs like :
+      API.AI , WIT.AI , Facebook graph api .<br>If you think I can benefit from any other programing languages
+      or softwares, please feel free to contact me. I am excited to learn new stuff!</p>
+    </div>
+
+<!--Top Skills-->
+ <div class=" col-sm-5 ">
+	<h2 class='text-center subtitle'>Top Skills</h2><br><br>
+  <div>
+
+	<!--Python-->
+  <div class="progress  ">
+    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%;">
+     <span class="sr-only">90% Complete</span>
+     </div>
+       <span class="progress-type"> Python</span>
+       <span class="progress-completed">90%</span>
+  </div>
+  <!--node.js-->
+  <div class="progress  ">
+    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+      <span class="sr-only">80% Complete</span>
+    </div>
+        <span class="progress-type"> Node js</span>
+        <span class="progress-completed">80%</span>
+  </div>
+  <!--js-->
+  <div>
+     <div class="progress  ">
+            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%;">
+                <span class="sr-only">70% Complete</span>
+            </div>
+            <span class="progress-type"> JavaScript</span>
+            <span class="progress-completed">70%</span>
+        </div>
+    </div>
+
+   </div>
+  </div>
+
+</div><br><br>
+	<div class="other-skills  text-center">
+  <h3 class="subtitle">Other Skills</h3>
+  <div class="misc-skills">
+
+   <span class="skill-tag">c/c++</span>
+	 <span class="skill-tag">Java</span>
+	 <span class="skill-tag">HTML/HTML5</span>
+	 <span class="skill-tag">CSS3</span>
+	 <span class="skill-tag">Git</span>
+	 <span class="skill-tag">Problem-solving</span>
+	 <br>
+   <span class="skill-tag">Api.ai</span>
+   <span class="skill-tag">PHP</span>
+	 <span class="skill-tag">WordPress</span>		 <span class="skill-tag">SQL</span>
+	 <br>
+	 <span class="skill-tag">Arabic</span>
+   <span class="skill-tag">English</span>
+   <span class="skill-tag">French</span>
+
+	</div>
+ </div>
+
+</div>
+
+<!-- Portfolio -->
+
+<div class="text-center section section-portfolio" id="P">
+  <h1 class="text-center section-title"  style="margin-top:50px;">
+  <i class="fa fa-file-code-o" aria-hidden="true"></i> My Portfolio <br>
+  </h1>
+  <div class=" items-wrapper isotope row" style="position: relative;">
+    <div class="item col-lg-4 col-sm-6" >
+      <div class="item-inner">
+          <figure class="figure">
+              <img class="img-fluid" src="https://scontent.ftun5-1.fna.fbcdn.net/v/t1.0-9/17862672_1307706522646469_322981101675186702_n.png?oh=fdfc8c6ca0022c5795b14b05d52e256f&oe=5AE38E8C" alt="">
+          </figure>
+           <div class="content text-left">
+             <h3 class="sub-title"><a href="#">Malloc Bot</a></h3>
+             <div class="meta">Node.JS</div>
+             <p> Messenger Chatbot example in french, you can see this bot with a demo video.</p>
+						 <div class="action"><a ref="https://www.facebook.com/1261828777234244/videos/1323442611072860/"target='_blank'>View on Facebook</a>   </div>
+           </div>
+           <a class="link-mask" href="#"></a>
+      </div>
+    </div>
+
+    <div class="item col-lg-4 col-sm-6" >
+      <div class="item-inner">
+          <figure class="figure">
+              <img class="img-fluid" src="https://images.pexels.com/photos/399161/pexels-photo-399161.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="">
+          </figure>
+          <div class="content text-left">
+            <h3 class="sub-title"><a href="#">My portfolio</a></h3>
+            <div class="meta">HTML5/CSS3</div>
+            <div class="action"><a href="#">View on Github</a> </div>
+					  <p> My portfolio designed and developed by me </p>
+            <a class="link-mask" href="#"></a>
+          </div>
+      </div>
+    </div>
+
+   <div class="item col-lg-4 col-sm-6" >
+    <div class="item-inner">
+        <figure class="figure">
+            <img class="img-fluid" src="https://businessfirstfamily.com/wp-content/uploads/2017/12/virtual-management-best-practices.png" alt="">
+        </figure>
+        <div class="content text-left">
+         <h3 class="sub-title"><a href="#">Ongoing Project</a></h3>
+         <div class="meta">In Progress</div>
+         <div class="action"><a href="#">View on Github</a>   </div>
+				 <p> Team project </p>
+         <a class="link-mask" href="P"></a>
+        </div>
+      </div>
+  </div>
+
+</div>
+</div>
+
+
+
+
+<!-- Contact -->
+
+<div id="C" class="section">
+  <div  class="header-section"><br>
+	   <div class="header">
+	      <h1 class="section-title ">Contact Me <i class="fa fa-envelope "></i></h1>
+	   </div>
+	</div>
+	<div class="divider"><span></span></div>
   <br>
-  <h2 class="large text-center section " ><div >
-  <i class="fa fa-question-circle-o" aria-hidden="true"></i>  </div>   
-    About me</h2>
-      
-      <p class="bio">
-My name is Malek Tanabene  I am a person that finds pleasure in learning/practicing anything about the information technology.An ongoing learner, self-motivated person that believes Computer Science is a field of an endless knowledge and a long journey for one lifetime. I am passionated by AI (Artificial Intelligence).
- One of my goals is to become Bot expert...</p></div>
-        <br>
-<div id="S" class=" about"></div>
-<div id="P" class=" about"></div>
-<div id="C" class=" about"></div>
+	<div class="row contact-section text-center">
+  <div class="col-sm-6 intro ">
+    <p>I'm currently taking on freelance work. Feel free to contact me and Let's start
+    our business I'll get back to you within 24 hours</p>
+    Hire me now ! <i class="fa fa-paper-plane" aria-hidden="true"></i>
+  </div>
+	<div class="col-sm-4 small  ">
+    <br><img src="https://themes.3rdwavemedia.com/demo/appkit-landing/assets/images/figure-1.png"><br>
+  </div>
+  </div>
+ </div>
 
 
+ <!-- left social navbar-->
 
-
+	<nav class="" id="social">
+          <ul>
+              <li><a href="https://twitter.com/TanabeneMalek">Twitter <i class="fa fa-twitter"></i></a></li>
+              <li><a href="https://www.facebook.com/malek.tanabene.5">Facebook <i class="fa fa-facebook"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/malek-tanab%C3%A8ne-38b79b139/">LinkedIn <i class="fa fa-linkedin"></i></a></li>
+              <li><a href="">Github <i class="fa fa-github"></i></a></li>
+						  <li><a href="">CodePen<i class="fa fa-codepen"></i></a></li>
+          </ul>
+  </nav>
 
 
 <!-- Footer -->
 <footer class="container-fluid text-center ">
-   
-     
+	<p> Made With <i class="fa fa-fw fa-heart" aria-hidden="true"> </i> and <i class="fa fa-fw fa-coffee" aria-hidden="true"> </i> By Malek Tanabene</p>
 </footer>
-<footer class="container-fluid bg0 text-center ">
-  <p> Made With <i class="fa fa-fw fa-heart" aria-hidden="true"> </i>By Malek Tanabene</p> 
-</footer>
-    
-    
-    
- 
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js" ></script>
+<script src="javascript/portfolio.js"> </script>
 </body>
 </html>
