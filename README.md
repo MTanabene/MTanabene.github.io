@@ -12,5 +12,5 @@ My Portfolio contains 5 sections :
 ## Tech And choices
 
 - I coded my website from scratch and I keep it simple! (i am not a web designer :stuck_out_tongue_winking_eye:)
-- I chose the pink color as them color.I :gift_heart: pink !
+- I choose the pink color as theme color.I :gift_heart: pink !
 - I used Simple HTML5 /CSS3 and JavaScript.
